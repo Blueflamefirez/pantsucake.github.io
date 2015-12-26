@@ -1,6 +1,7 @@
 /* Imports */
-@import url("http://pantsucake.github.io/dubtrack.css");
+@import url("https://nightbloo.github.io/dubtrack/dubtrack.css");
 @import url("https://rawgit.com/Netox005/Dubtrack/master/css/chatright.css"); /* Chat completly to the right */
+@import url("https://rawgit.com/Netox005/Dubtrack/master/css/videosmall.css"); /* Small video */
 
 /* Fix footer bar gradient background */
 #player-controller .left:after {
@@ -189,19 +190,4 @@ transparent 100%) !important;
   max-height: 30px !important;
   width: auto !important;
   height: auto !important;
-}
-
-/* COMPLEMENTARY FILE, should be imported into another .css file */
-
-@media screen and (min-width: 72em) { /* If not "phone mode" */
-    /* Main functions */
-    #main-room { max-width: initial; padding: 3.5rem 0; }
-    #main-room .right_section {
-        width: 300px !important;
-        border-radius: 0;
-        float: right !important;
-        height: calc(100vh - 112px);
-    }
-    #main-room #chat .chat-container .chat-messages { height: inherit; }
-    #main-room #chat .chat-container, #chat { height: 100%; }
 }
